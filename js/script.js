@@ -19,7 +19,7 @@ var countdown = setInterval(function(){
     clearInterval(countdown);
     var checked = memoCheck(simonList);
     var loseText = " Non ti sei ricordato nessuno dei " + simonList.length + " numeri indicati" +  ", le risposte corrette erano: " + simonList;
-    var winText = "Complimenti! Ti sei ricordato tutti e " +  simonList.length + "I numeri indicati! (" + simonList + ")";
+    var winText = "Complimenti! Ti sei ricordato tutti e " +  simonList.length + "i numeri indicati! (" + simonList + ")";
     var halfWinText = "Ti sei ricordato " + checked.length + " numeri su " + simonList.length + ", ecco la lista completa : " + simonList;
     if (checked.length == 0) {
         docuPrint("text", loseText);
