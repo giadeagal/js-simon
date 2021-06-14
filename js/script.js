@@ -57,7 +57,6 @@ function docuPrint(x, y) {
 function memoCheck(a) {
     x = [];
     var askNum;
-    console.log(a)
     for (var i = 0; i < a.length; i++) {
         askNum = parseInt(prompt("inserisci uno dei numeri da ricordare"));
         if (a.includes(askNum)) {
